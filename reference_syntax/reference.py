@@ -74,6 +74,5 @@ squares = [x*x for x in range(10)]
 evens = [x for x in range(10) if x % 2 == 0]
 
 # Dictionary comprehension
-square_dict = {x: x*x for x in range(5)}
-
+square_dict = {f"num_{x}": x * x for x in range(5)}
 ########################################
